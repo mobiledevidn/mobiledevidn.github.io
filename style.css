@@ -1,0 +1,48 @@
+body {
+	background-color: #FBFBFB;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0 0 34px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: Century Gothic;
+	font-size: 30px;
+}
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+		
+@font-face {
+  font-family: Century Gothic;
+  src: url(asset/font/GOTHIC.TTF);
+}
