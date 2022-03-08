@@ -1,0 +1,9 @@
+{
+	"status": {
+		"code": 200,
+        "description": "Ok"
+    },
+    "results": {
+		"apikey": "633211a0f5f087dac3a66f3935ebd47fb4e253a43493b8fcf9a18a3a17514152"
+	}
+}
