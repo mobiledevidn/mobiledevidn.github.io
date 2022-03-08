@@ -1,0 +1,16 @@
+{
+	"status": {
+		"code": 200,
+        "description": "This is a collection of open apikeys"
+    },
+	"results": [
+		{
+			"name":"binderbyte.com",
+			"apikey":"633211a0f5f087dac3a66f3935ebd47fb4e253a43493b8fcf9a18a3a17514152"
+		},
+		{
+			"name":"rajaongkir.com",
+			"apikey":"d348bed6b5938e9c519c219e118d7bd9"
+		}
+	]
+}
